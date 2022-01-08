@@ -4,5 +4,8 @@
     <title>Hello World</title>
     <url>/2022/01/08/hello_world/</url>
     <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
+      <tags>
+        <tag>Golang</tag>
+      </tags>
   </entry>
 </search>
