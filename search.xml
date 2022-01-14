@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/01/08/hello_world/</url>
-    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
-      <tags>
-        <tag>Golang</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>打卡</title>
-    <url>/2022/01/14/%E6%89%93%E5%8D%A1/%E6%89%93%E5%8D%A1/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>算法基础课</title>
     <url>/2022/01/12/%E6%89%8B%E5%86%99%E5%A0%86/</url>
     <content><![CDATA[<p>下标从1开始比较方便, 从1开始比较方便<br>0 的左儿子是0，右边是1</p>
@@ -71,5 +55,66 @@
 <li>bitset</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/08/hello_world/</url>
+    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
+      <tags>
+        <tag>Golang</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>打卡</title>
+    <url>/2022/01/14/%E6%89%93%E5%8D%A1/%E6%89%93%E5%8D%A1/</url>
+    <content><![CDATA[<h2 id="2022-01-14"><a href="#2022-01-14" class="headerlink" title="2022-01-14"></a>2022-01-14</h2><ol>
+<li><p>acwing 算法基础课</p>
+<ul>
+<li><p>DFS: 栈, 空间和路径长度相关</p>
+<ul>
+<li>数字的全排列，只有单纯的回溯, 没有剪枝， 现场的恢复</li>
+<li>n皇后问题：将相同对角线映射到一个下标, 对应题解的第一种</li>
+</ul>
+</li>
+<li><p>BFS: queue, 空间是指数级别的， 可以搜索最近的点</p>
+<ul>
+<li>走迷宫</li>
+<li>八数码： <ol>
+<li>状态本身是一个二维数组, 表示比较复杂, </li>
+<li>dist的表示相对来说也比较复杂,  距离数组的下标表示也比较复杂</li>
+<li>状态的转移也需要进行考虑</li>
+<li>注意下bfs的最短路径的数学证明</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>树和图的存储</p>
+<ul>
+<li>树是无环连通图</li>
+<li>有向图存储<ul>
+<li>邻接矩阵</li>
+<li>邻接表：稀疏的图</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>树与图的深度优先遍历</p>
+<ul>
+<li>树的重心</li>
+</ul>
+</li>
+<li><p>树和图的宽度优先遍历</p>
+<ul>
+<li>树的层次</li>
+<li>求解图的拓扑排序</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
   </entry>
 </search>
