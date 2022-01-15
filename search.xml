@@ -112,6 +112,46 @@
 </ul>
 </li>
 </ol>
+<h2 id="2022-01-15"><a href="#2022-01-15" class="headerlink" title="2022-01-15"></a>2022-01-15</h2><ol>
+<li><p>acwing 算法基础课</p>
+<ul>
+<li><p>最短路算法</p>
+<ul>
+<li><p>单源最短路</p>
+<ul>
+<li><p>所有边的权都是正数</p>
+<ol>
+<li><p>朴素的Dijkstra算法 O(n * n)<br> 稠密图用朴素的比较合适<br> go 使用0x3f3f3f3f 设置无穷大</p>
+</li>
+<li><p>堆优化的Dijkstra算法 O(m * log n)<br> m 是边的数量<br> 存储方式变成临接表</p>
+</li>
+</ol>
+</li>
+<li><p>存在负权边</p>
+<ol>
+<li>Bellman-Ford (O nm)<br> n 次迭代, 每次循环所有边，a, b, w<br> 边的存储更加随意，只要能遍历到所有边即可<ul>
+<li>有边数限制的最短路径</li>
+<li>可以判断负环</li>
+</ul>
+</li>
+<li>SPFA (O m), 最坏是O nm<ul>
+<li>spfa要求不能包含负环</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>多源汇最短</p>
+<ul>
+<li>Floyd O (n**3)<br>  原理是基于动态规划<br>  d[k, i, j] i到j只经过1..k的最短距离<br>  邻接矩阵存储图</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
 ]]></content>
       <tags>
         <tag>打卡</tag>
