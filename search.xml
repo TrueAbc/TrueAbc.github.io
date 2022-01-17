@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/01/08/hello_world/</url>
-    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
-      <tags>
-        <tag>Golang</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>打卡</title>
     <url>/2022/01/14/%E6%89%93%E5%8D%A1/%E6%89%93%E5%8D%A1/</url>
     <content><![CDATA[<h2 id="2022-01-14"><a href="#2022-01-14" class="headerlink" title="2022-01-14"></a>2022-01-14</h2><ol>
@@ -96,12 +88,54 @@
 </ul>
 </li>
 </ol>
-<h2 id="2022-01-16"><a href="#2022-01-16" class="headerlink" title="2022-01-16"></a>2022-01-16</h2><ol>
-<li>acwing 算法基础课</li>
+<h2 id="2022-01-17"><a href="#2022-01-17" class="headerlink" title="2022-01-17"></a>2022-01-17</h2><ol>
+<li><p>acwing 算法基础课</p>
+<ul>
+<li><p>最小生成树</p>
+<ol>
+<li><p>Prim 算法</p>
+<ul>
+<li><p>朴素版Prime(O n^2)<br>  稠密图<br>  更新其他点到集合的距离, 而不是到起点的距离, 这是和dijkstra的差异</p>
+</li>
+<li><p>堆优化的Prime(O mlogn)<br>  稀疏图</p>
+</li>
+</ul>
+</li>
+<li><p>Kruskal 算法(O m logm)</p>
+<ul>
+<li>将所有边按照权重从小到大排序</li>
+<li>枚举每条边a, b 权重是c， 如果a和b不连通， 将这条边加入集合</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>二分图</p>
+<ol>
+<li>二分图的判别(染色法, 深度优先遍历)<ul>
+<li>一个图是二分图, 当且仅当图中不包含奇数环</li>
+<li>这是个充分必要条件, 必要性是反证法，充分性是构造, 也就是染色法</li>
+</ul>
+</li>
+<li>匈牙利算法(最坏O(nm), 实际运行时间一般远小于， 证明相对来说比较困难)<ul>
+<li>给定二分图, 求解最大匹配, 匹配是只每对点最多可以属于一条边</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
 </ol>
 ]]></content>
       <tags>
         <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/08/hello_world/</url>
+    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
+      <tags>
+        <tag>Golang</tag>
       </tags>
   </entry>
 </search>
