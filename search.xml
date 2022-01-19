@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/01/08/hello_world/</url>
+    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
+      <tags>
+        <tag>Golang</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>打卡</title>
     <url>/2022/01/14/%E6%89%93%E5%8D%A1/%E6%89%93%E5%8D%A1/</url>
     <content><![CDATA[<h2 id="2022-01-14"><a href="#2022-01-14" class="headerlink" title="2022-01-14"></a>2022-01-14</h2><ol>
@@ -125,17 +133,47 @@
 </ul>
 </li>
 </ol>
+<h2 id="2022-01-19"><a href="#2022-01-19" class="headerlink" title="2022-01-19"></a>2022-01-19</h2><ol>
+<li><p>acwing 算法基础课</p>
+<ol>
+<li><p>数论</p>
+<ol>
+<li><p>质数: 从2开始的, 如果只包含1和自身两个约数, 是质数</p>
+<ul>
+<li>从2开始计算约数（试除法）<ul>
+<li>枚举到$\sqrt{n}$(因为约数是成对出现的, 枚举小的约数)（推荐写法 i &lt; $\frac{n}{i}$）</li>
+</ul>
+</li>
+<li>分解质因数(试除法)<ul>
+<li>从小到大尝试n的所有质因数</li>
+</ul>
+</li>
+<li>筛选质因数<ul>
+<li>线性筛法： n只会被最小的质因子筛除, 视频是讲清楚的</li>
+<li>埃氏筛法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>约数</p>
+<ul>
+<li>求一个数的所有约数（试除法, 约数也是成对出现, 枚举小的可以直接算大的）</li>
+<li>约数的个数以及约数之和<br>  <img src="http://img.trueabc.top//img/20220119162131.png"><br>  – 约数之和<br>  <img src="http://img.trueabc.top//img/20220119163315.png"></li>
+<li>最大公约数，欧几里得算法（辗转相除法）<br>  最大公约数转换<br>  <img src="http://img.trueabc.top//img/20220119190415.png"></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>组合计数</p>
+</li>
+<li><p>高斯消元</p>
+</li>
+</ol>
+</li>
+</ol>
 ]]></content>
       <tags>
         <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/01/08/hello_world/</url>
-    <content><![CDATA[<h2 id="开始尝试静态博客"><a href="#开始尝试静态博客" class="headerlink" title="开始尝试静态博客"></a>开始尝试静态博客</h2>]]></content>
-      <tags>
-        <tag>Golang</tag>
       </tags>
   </entry>
 </search>
