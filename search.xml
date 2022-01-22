@@ -162,11 +162,24 @@
 <li>最大公约数，欧几里得算法（辗转相除法）<br>  最大公约数转换<br>  <img src="http://img.trueabc.top//img/20220119190415.png"></li>
 </ul>
 </li>
+<li><p>欧拉函数</p>
+<ul>
+<li>1到n中，和n互质(最大公约数是1)的数的个数<br><img src="http://img.trueabc.top//img/20220119200953.png"> <ul>
+<li>从1到N中，去掉N质因子分解的倍数, </li>
+<li>加上所有p_i * p_j 的倍数</li>
+</ul>
+</li>
+<li>筛法求欧拉函数</li>
+</ul>
+</li>
+<li><p>快速幂<br> 快速计算a的k次方mod p 的结果 O(log k)</p>
+</li>
+<li><p>扩展欧几里德算法</p>
+<ul>
+<li>该算法就是计算这里的x和y<br>  <img src="http://img.trueabc.top//img/20220122151620.png"></li>
+</ul>
+</li>
 </ol>
-</li>
-<li><p>组合计数</p>
-</li>
-<li><p>高斯消元</p>
 </li>
 </ol>
 </li>
