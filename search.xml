@@ -133,7 +133,7 @@
 </ul>
 </li>
 </ol>
-<h2 id="2022-01-19"><a href="#2022-01-19" class="headerlink" title="2022-01-19"></a>2022-01-19</h2><ol>
+<h2 id="2022-01-22"><a href="#2022-01-22" class="headerlink" title="2022-01-22"></a>2022-01-22</h2><ol>
 <li><p>acwing 算法基础课</p>
 <ol>
 <li><p>数论</p>
@@ -158,13 +158,13 @@
 <li><p>约数</p>
 <ul>
 <li>求一个数的所有约数（试除法, 约数也是成对出现, 枚举小的可以直接算大的）</li>
-<li>约数的个数以及约数之和<br>  <img src="http://img.trueabc.top//img/20220119162131.png"><br>  – 约数之和<br>  <img src="http://img.trueabc.top//img/20220119163315.png"></li>
-<li>最大公约数，欧几里得算法（辗转相除法）<br>  最大公约数转换<br>  <img src="http://img.trueabc.top//img/20220119190415.png"></li>
+<li>约数的个数以及约数之和<br>  <img src="http://img.trueabc.top/img/20220119162131.png"><br>  – 约数之和<br>  <img src="http://img.trueabc.top/img/20220119163315.png"></li>
+<li>最大公约数，欧几里得算法（辗转相除法）<br>  最大公约数转换<br>  <img src="http://img.trueabc.top/img/20220119190415.png"></li>
 </ul>
 </li>
 <li><p>欧拉函数</p>
 <ul>
-<li>1到n中，和n互质(最大公约数是1)的数的个数<br><img src="http://img.trueabc.top//img/20220119200953.png"> <ul>
+<li>1到n中，和n互质(最大公约数是1)的数的个数<br><img src="http://img.trueabc.top/img/20220119200953.png"> <ul>
 <li>从1到N中，去掉N质因子分解的倍数, </li>
 <li>加上所有p_i * p_j 的倍数</li>
 </ul>
@@ -176,8 +176,11 @@
 </li>
 <li><p>扩展欧几里德算法</p>
 <ul>
-<li>该算法就是计算这里的x和y<br>  <img src="http://img.trueabc.top//img/20220122151620.png"></li>
+<li>该算法就是计算这里的x和y<br>  <img src="http://img.trueabc.top/img/20220122151620.png"></li>
+<li>线性同余方程</li>
 </ul>
+</li>
+<li><p>中国剩余定理 线性同余方程组的解</p>
 </li>
 </ol>
 </li>
